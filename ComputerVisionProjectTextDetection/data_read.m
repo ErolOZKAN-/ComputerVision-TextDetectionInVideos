@@ -16,6 +16,7 @@ while ischar(tline)
 end
 fclose(fid);
 
+
 %% Scan each line and extract numbers
 
 for i = 1:length(OUT)
